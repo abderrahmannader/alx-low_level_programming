@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo 'folder_name'
+
+read foldername
+
+echo "#!/bin/bash" > ${foldername}
+
+chmod u+x ${foldername}
+
