@@ -5,17 +5,15 @@
  *
  *Return: 0
  */
-
 int main(void)
-{	
-	char al = 'a';
+{
+	char alp = "a";
 
-	while (al <= 'z')
+	while (alp < 'z')
 	{
-		putchar(al);
-		al++;
+		putchar(alp);
+		alp++;
 	}
 	putchar('\n');
-
 	return (0);
 }
