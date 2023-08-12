@@ -17,8 +17,8 @@ int main(void)
 	}
 	while (WOR <= 'Z')
 	{
-		putchar(wor);
-		wor++
+		putchar(WOR);
+		WOR++
 	}
 	putchar('\n');
 
