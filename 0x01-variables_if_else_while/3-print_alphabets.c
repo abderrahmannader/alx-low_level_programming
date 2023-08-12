@@ -7,18 +7,18 @@
  */
 int main(void)
 {
-	char wor = 'a';
-	char WOR = 'A';
+	char wr = 'a';
+	char WR = 'A';
 
-	while (wor <= 'z')
+	while (wr <= 'z')
 	{
-		putchar(wor);
-		wor++;
+		putchar(wr);
+		wr++;
 	}
-	while (WOR <= 'Z')
+	while (WR <= 'Z')
 	{
-		putchar(WOR);
-		WOR++
+		putchar(WR);
+		WR++;
 	}
 	putchar('\n');
 
