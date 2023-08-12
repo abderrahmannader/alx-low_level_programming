@@ -3,19 +3,24 @@
 /**
  *main - entry point
  *
- *Return: 0 
+ *Return: 0
  */
-
 int main(void)
 {
-	char wor = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i;
+	char wor = 'a';
+	char WOR = 'A';
 
-	for (i = 0; i < 52; i++)
+	while (wor <= z)
 	{
-		putchar(wor[i]);
+		putchar(wor);
+		wor++;
+	}
+	while (WOR <= Z)
+	{
+		putchar(wor);
+		wor++
 	}
 	putchar('\n');
-	return (0);
 
+	return (0);
 }
