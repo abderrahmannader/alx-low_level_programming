@@ -9,14 +9,14 @@ int main(void)
 {
 	char wor = 'a';
 
-	while (wor <= z)
+	while (wor <= 'z')
 	{
-		if (wor == q || wor == e)
+		if (wor == 'q' || wor == 'e')
 			wor++;
 		putchar(wor);
-		ch++;
+		wor++;
 	}
 	putchar('\n');
 
-	return (o);
+	return (0);
 }
