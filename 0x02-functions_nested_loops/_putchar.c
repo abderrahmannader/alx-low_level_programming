@@ -2,14 +2,12 @@
 #include "main.h"
 
 /**
- *main - entry point
- *
+ *_putchar - writes the character c
+ *@c: The character
  *Return: 0
  *
  */
-
-int _putchar(char c)
+int _putchar(char c);
 {
 	return (write(1, &c, 1));
 }
-
