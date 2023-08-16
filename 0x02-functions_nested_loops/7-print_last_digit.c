@@ -2,8 +2,8 @@
 
 /**
  * print_last_digit - prints
- * @n: the int to extract 
- * Return: 0 
+ * @n: the int to extract
+ * Return: 0
  */
 int print_last_digit(int n)
 {
