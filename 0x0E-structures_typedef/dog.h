@@ -2,12 +2,12 @@
 #define DOG_H
 
 /**
- * struct dog - a dog's happy
- * @name: member
- * @age: member
- * @owner: member
+ * struct dog - a funny dog
+ * @name: First
+ * @age: Second
+ * @owner: Third
  *
- * Description: it is funny dog
+ * Description: it is a good dog
  */
 struct dog
 {
@@ -16,6 +16,10 @@ struct dog
 	char *owner;
 };
 
+/**
+ * dog_t - typedef for struct
+ */
+typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
